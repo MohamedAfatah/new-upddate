@@ -1,0 +1,51 @@
+first steps 
+* for download the repsoitry to my local folder 
+
+git clone https://github.com/MohamedAfatah/new-upddate.git 
+
+
+----------------------------------------------------------------------------------------
+
+
+1.git init 
+2. git add . or add * 
+3. git status     > to check about the status
+4. git commit -m " commit description "
+5. git remote add origin master https://github.com/MohamedAfatah/new-upddate.git
+6. git push origin master > upload on seriver 
+
+----------------------------------------------------------------------------------------
+*if one of my team maka a change in project i must pull the project again to my local folder -->
+
+git pull origin master  
+
+
+--------------------------------------------------------------------------------------
+*remove the file from the servier before local
+
+
+git rm -r --cached  file name
+git commit -m "remove file name"
+git push origin master 
+
+----------------------------------------------------------------------------------------
+* to apper the commits in repsoitry 
+
+git log
+
+------------------------------branch ------------------------------------------------
+git checkout -b new branch name               **createnew branch **
+git branch                                                          ** shown the branch in repo **
+git checkout  branch name                            ** chose the branch **
+
+--------------------------------------------------------------------------------------     
+git status 
+git add . 
+git commit -m 
+git checkout -b branch name edit 
+git push origin branch name edit 
+--------------------------------------------------------------------------------------------
+git branch -a                                                  **how many branch in repo with his path  **
+git branch -b "branch name " "origin /correct "     ** download to local from another branch **
+
+ 
